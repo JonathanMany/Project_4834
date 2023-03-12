@@ -1,0 +1,60 @@
+﻿/* Center the content vertically and horizontally */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9f4fb;
+}
+
+/* Style the header */
+h1 {
+    color: #2c3e50;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+/* Style the paragraph */
+p {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* Style the link */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+/* Style the button */
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #2980b9;
+    }
+
+/* Style the log in paragraph */
+p:nth-of-type(2) {
+    font-size: 1.2em;
+}
+
+/* Style the sign up link */
+p:nth-of-type(3) {
+    font-size: 1.2em;
+}
